@@ -36,7 +36,7 @@
 
 ### 交易与执行概览
 
-![多 Agent 策略交易执行概览](./Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/13_trade_execution_overview.png)
+![多 Agent 策略交易执行概览](./visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/13_trade_execution_overview.png)
 
 > **结果说明：** 指标取自项目已保存的回测输出；年化指标按日频、每年 365 天计算，Sharpe 的无风险利率设为 0。实际交易中的手续费、滑点、流动性约束和风控规则可能影响结果。
 
