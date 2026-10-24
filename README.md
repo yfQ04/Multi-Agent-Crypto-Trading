@@ -16,7 +16,7 @@
 
 ## 回测结果
 
-下表来自仓库中的 [strategy_metrics_summary.csv](./visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/01_cumulative_return_curve.png)。收益和风险指标均按年化口径展示。
+下表来自仓库中的 [strategy_metrics_summary.csv](./visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/strategy_metrics_summary.csv)。收益和风险指标均按年化口径展示。
 
 | 策略 | 累计收益 | 年化收益 | 年化波动率 | Sharpe | 最大回撤 |
 |---|---:|---:|---:|---:|---:|
