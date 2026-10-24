@@ -28,7 +28,7 @@
 
 ### 累计收益对比
 
-![2025-03-10 至 2026-03-10 各策略累计收益对比](./Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/01_cumulative_return_curve.png)
+![2025-03-10 至 2026-03-10 各策略累计收益对比](./visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/01_cumulative_return_curve.png)
 
 ### 回撤对比
 
