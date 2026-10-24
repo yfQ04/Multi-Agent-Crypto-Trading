@@ -1,0 +1,7 @@
+run_id,date,timestamp_utc,agent,status,model_name,action,conviction,reason,raw_output,close,ret_1d,sma_7,sma_20,rsi_14,volume_change_1d
+20260422T082313Z,2025-03-10,2026-04-22T08:23:31.692902+00:00,single_llm_baseline,succeed,Pro/deepseek-ai/DeepSeek-V3.2,flat,0.1,"All indicators are neutral with no price movement, volume change, or trend signals.","{
+    ""action"": ""flat"",
+    ""conviction"": 0.1,
+    ""reason"": ""All indicators are neutral with no price movement, volume change, or trend signals.""
+}",78532.0018084677,0.0,78532.0018084677,78532.0018084677,50.0,0.0
+20260422T082313Z,2025-03-11,2026-04-22T08:23:34.803610+00:00,single_llm_baseline,succeed,Pro/deepseek-ai/DeepSeek-V3.2,long,0.65,"Price closed above both SMAs with positive daily momentum, indicating bullish trend continuation.","{""action"": ""long"", ""conviction"": 0.65, ""reason"": ""Price closed above both SMAs with positive daily momentum, indicating bullish trend continuation.""}",82862.2081809809,0.05513938614571634,80697.1049947243,80697.1049947243,50.0,0.011870601614150544
