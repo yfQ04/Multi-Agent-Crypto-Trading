@@ -1,0 +1,3 @@
+run_id,date,index,total_days,single_llm_status,action,conviction,timestamp_utc
+20260422T082313Z,2025-03-10,1,2,succeed,flat,0.1,2026-04-22T08:23:31.692902+00:00
+20260422T082313Z,2025-03-11,2,2,succeed,long,0.65,2026-04-22T08:23:34.803610+00:00

@@ -1,0 +1,13 @@
+{
+  "start_date": "2025-03-10",
+  "end_date": "2025-03-11",
+  "days": 2,
+  "rows": 2,
+  "parse_ok_ratio": 1.0,
+  "model_name": "Pro/deepseek-ai/DeepSeek-V3.2",
+  "price_csv": "BTC.csv",
+  "daily_input_csv": "artifacts/agent_logs/agent9_single_llm_test/agent9_single_llm_input_daily_2025-03-10_2025-03-11.csv",
+  "daily_log_csv": "artifacts/agent_logs/agent9_single_llm_test/agent9_single_llm_daily_llm_logs_2025-03-10_2025-03-11.csv",
+  "progress_csv": "artifacts/agent_logs/agent9_single_llm_test/agent9_single_llm_daily_progress_2025-03-10_2025-03-11.csv",
+  "generated_at": "2026-04-22T08:23:35.068335+00:00"
+}
