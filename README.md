@@ -5,10 +5,6 @@
 
 **项目结果速览** · 回测区间：`2025-03-10` — `2026-03-10` · 标的：**BTC**
 
-如果你要，我下一步可以再给你一版“raw 链接版”（全部 https://raw.githubusercontent.com/...），适合在外部平台（不是 GitHub README）也稳定显示图。
-
-Ask anything or type @ to add context
-
 Files
 Go to file
 t
