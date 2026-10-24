@@ -32,7 +32,7 @@
 
 ### 回撤对比
 
-![各策略回撤曲线](./Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/02_drawdown_curve.png)
+![各策略回撤曲线](./visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/07_max_drawdown.png)
 
 ### 交易与执行概览
 
