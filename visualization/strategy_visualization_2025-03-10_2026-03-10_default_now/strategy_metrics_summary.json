@@ -1,0 +1,62 @@
+[
+  {
+    "strategy": "multi-agent",
+    "total_return": 0.480890973145244,
+    "annualized_return": 0.4793031287580769,
+    "annualized_volatility": 0.35741374057091646,
+    "sharpe_ratio": 1.3410316234413928,
+    "max_drawdown": -0.2077729155882757,
+    "daily_win_rate": 0.48360655737704916,
+    "avg_winning_day_return": 0.010915323675902474,
+    "avg_losing_day_return": -0.007849341082446712,
+    "profit_factor": 1.309238700733618
+  },
+  {
+    "strategy": "Buy&Hold",
+    "total_return": -0.12197040114496449,
+    "annualized_return": -0.12165829738897938,
+    "annualized_volatility": 0.44639720162436236,
+    "sharpe_ratio": -0.2725337366504222,
+    "max_drawdown": -0.4994121487943847,
+    "daily_win_rate": 0.4918032786885246,
+    "avg_winning_day_return": 0.016334248644438103,
+    "avg_losing_day_return": -0.015969353298540535,
+    "profit_factor": 0.9898545734652876
+  },
+  {
+    "strategy": "SMA(7/20)",
+    "total_return": -0.0525917415469922,
+    "annualized_return": -0.05245188452100291,
+    "annualized_volatility": 0.24020090354690404,
+    "sharpe_ratio": -0.21836672446471722,
+    "max_drawdown": -0.3607622487881932,
+    "daily_win_rate": 0.23770491803278687,
+    "avg_winning_day_return": 0.012776382027273017,
+    "avg_losing_day_return": -0.004074319922340545,
+    "profit_factor": 0.9778400275916487
+  },
+  {
+    "strategy": "SingleBollinger(10,2.5)",
+    "total_return": 0.059934768101296054,
+    "annualized_return": 0.05976621316679065,
+    "annualized_volatility": 0.12819645237778318,
+    "sharpe_ratio": 0.4662080116746531,
+    "max_drawdown": -0.07643227755345423,
+    "daily_win_rate": 0.04371584699453552,
+    "avg_winning_day_return": 0.018858560840352433,
+    "avg_losing_day_return": -0.0006727325162149374,
+    "profit_factor": 1.2814983929521688
+  },
+  {
+    "strategy": "SingleLLM",
+    "total_return": 0.1590687307893739,
+    "annualized_return": 0.15860134392528913,
+    "annualized_volatility": 0.25160879615956594,
+    "sharpe_ratio": 0.6303489637329964,
+    "max_drawdown": -0.25447115627121536,
+    "daily_win_rate": 0.29508196721311475,
+    "avg_winning_day_return": 0.012385984529087206,
+    "avg_losing_day_return": -0.01025248691170353,
+    "profit_factor": 1.1546400613086736
+  }
+]
