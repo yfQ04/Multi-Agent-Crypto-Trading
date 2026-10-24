@@ -167,11 +167,11 @@ python runners/run_daily_decision.py --date 2026-03-10
 
 ## 结果与数据文件
 
-- [全部 14 张回测图和指标文件](./Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/)
-- [指标汇总 CSV](./Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/strategy_metrics_summary.csv)
-- [指标汇总 JSON](./Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/strategy_metrics_summary.json)
-- Agent 日志及缓存：[`Multi-agent Crypto Trading/artifacts/agent_logs/`](./Multi-agent%20Crypto%20Trading/artifacts/agent_logs/)
-- 行情数据：[`Multi-agent Crypto Trading/BTC.csv`](./Multi-agent%20Crypto%20Trading/BTC.csv)、[`Multi-agent Crypto Trading/ETH.csv`](./Multi-agent%20Crypto%20Trading/ETH.csv)
+- [全部 14 张回测图和指标文件](./visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/)
+- [指标汇总 CSV](./visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/strategy_metrics_summary.csv)
+- [指标汇总 JSON](./visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/strategy_metrics_summary.json)
+- Agent 日志及缓存：[`Multi-agent Crypto Trading/artifacts/agent_logs/`](./artifacts/agent_logs/)
+- 行情数据：[`Multi-agent Crypto Trading/BTC.csv`](./BTC.csv)、[`Multi-agent Crypto Trading/ETH.csv`](./ETH.csv)
 
 ## 范围与注意事项
 
