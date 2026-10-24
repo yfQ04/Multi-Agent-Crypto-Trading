@@ -10,13 +10,13 @@
 
 ## 项目简介
 
-本项目实现一个面向 BTC 的多 Agent 日频研究与回测流程。系统先整理新闻/社交媒体情绪和价格技术指标，再让多种角色分别分析、辩论、控制风险并形成最终执行建议。回测报告将多 Agent 策略与 Buy & Hold、SMA、布林带和单 LLM 基线进行比较。
+本项目实现一个面向 BTC 的多 Agent 日频研究与回测流程。系统先整理新闻/社交媒体情绪和价格技术指标，再让多种角色分别分析、辩论、控制风险并形成最终执行决策，最后与传统基线策略进行对比。
 
 仓库已包含历史价格、情绪数据、Agent 日志以及生成好的图表和指标文件。查看下方结果不需要配置 API；配置密钥后可以运行模型流程并重新生成结果。
 
 ## 回测结果
 
-下表来自仓库中的 [strategy_metrics_summary.csv](Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/strategy_metrics_summary.csv)。收益和风险指标均为该历史区间的回测结果，不代表未来表现。
+下表来自仓库中的 [strategy_metrics_summary.csv](./Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/strategy_metrics_summary.csv)。收益和风险指标均按年化口径展示。
 
 | 策略 | 累计收益 | 年化收益 | 年化波动率 | Sharpe | 最大回撤 |
 |---|---:|---:|---:|---:|---:|
@@ -28,17 +28,17 @@
 
 ### 累计收益对比
 
-![2025-03-10 至 2026-03-10 各策略累计收益对比](Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/01_cumulative_return_curve.png)
+![2025-03-10 至 2026-03-10 各策略累计收益对比](./Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/01_cumulative_return_curve.png)
 
 ### 回撤对比
 
-![各策略回撤曲线](Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/02_drawdown_curve.png)
+![各策略回撤曲线](./Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/02_drawdown_curve.png)
 
 ### 交易与执行概览
 
-![多 Agent 策略交易执行概览](Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/13_trade_execution_overview.png)
+![多 Agent 策略交易执行概览](./Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/13_trade_execution_overview.png)
 
-> **结果说明：** 指标取自项目已保存的回测输出；年化指标按日频、每年 365 天计算，Sharpe 的无风险利率设为 0。实际交易中的手续费、滑点、流动性、数据时点和模型输出都可能显著影响结果。此项目用于研究和演示，不构成投资建议。
+> **结果说明：** 指标取自项目已保存的回测输出；年化指标按日频、每年 365 天计算，Sharpe 的无风险利率设为 0。实际交易中的手续费、滑点、流动性约束和风控规则可能影响结果。
 
 ## Agent 工作流
 
@@ -107,7 +107,7 @@ python -m pip install --upgrade pip
 python -m pip install pandas numpy ta requests praw python-dotenv openai matplotlib seaborn
 ```
 
-> 仓库中的 `requirements.txt` 是从开发环境导出的依赖清单，包含指向原开发机的本地 `file://` 路径；在其他机器上不一定可以直接安装。上面的命令列出运行当前流程所需的主要 Python 包。
+> 仓库中的 `requirements.txt` 是从开发环境导出的依赖清单，包含指向原开发机的本地 `file://` 路径；在其他机器上不一定可以直接安装。上面的命令列出了可运行主流程和可视化所需的核心依赖。
 
 ### 2. 配置 LLM API Key
 
@@ -167,11 +167,11 @@ python runners/run_daily_decision.py --date 2026-03-10
 
 ## 结果与数据文件
 
-- [全部 14 张回测图和指标文件](Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/)
-- [指标汇总 CSV](Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/strategy_metrics_summary.csv)
-- [指标汇总 JSON](Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/strategy_metrics_summary.json)
-- Agent 日志及缓存：`Multi-agent Crypto Trading/artifacts/agent_logs/`
-- 行情数据：`Multi-agent Crypto Trading/BTC.csv`、`Multi-agent Crypto Trading/ETH.csv`
+- [全部 14 张回测图和指标文件](./Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/)
+- [指标汇总 CSV](./Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/strategy_metrics_summary.csv)
+- [指标汇总 JSON](./Multi-agent%20Crypto%20Trading/visualization/strategy_visualization_2025-03-10_2026-03-10_default_now/strategy_metrics_summary.json)
+- Agent 日志及缓存：[`Multi-agent Crypto Trading/artifacts/agent_logs/`](./Multi-agent%20Crypto%20Trading/artifacts/agent_logs/)
+- 行情数据：[`Multi-agent Crypto Trading/BTC.csv`](./Multi-agent%20Crypto%20Trading/BTC.csv)、[`Multi-agent Crypto Trading/ETH.csv`](./Multi-agent%20Crypto%20Trading/ETH.csv)
 
 ## 范围与注意事项
 
